@@ -52,7 +52,7 @@ html, body {
     width: 6.75rem;
     height: 2.3125rem;
     margin-right: 3.25rem;
-    background: no-repeat 50% 50% url(assets/logo.svg);
+    background: no-repeat 50% 50% url(assets/logo.webp);
     background-size: contain;
 }
 
@@ -62,7 +62,7 @@ html, body {
     height: 100%;
     margin: 0 0 0 auto;
     padding: 0;
-    background: 50% 50% no-repeat transparent url(assets/icon_list_m@1x.svg);
+    background: 50% 50% no-repeat transparent url(assets/icon_list_m@1x.webp);
     border: none;
     border-radius: 0;
     appearance: none;
@@ -221,7 +221,7 @@ html, body {
     font-size: 0.8125rem;
     font-family: inherit;
     font-weight: bold;
-    background: no-repeat calc(100% - 1rem) 50% #FFD93E url(assets/arrow-down.svg);
+    background: no-repeat calc(100% - 1rem) 50% #FFD93E url(assets/arrow-down.webp);
     appearance: none;
 }
 
@@ -387,7 +387,7 @@ html, body {
 }
 
 .hero-dashboard__icon_rain {
-    background-image: url(assets/cloud-drizzle.svg);
+    background-image: url(assets/cloud-drizzle.webp);
 }
 
 .hero-dashboard__schedule {
@@ -454,23 +454,23 @@ html, body {
 }
 
 .event__icon_temp {
-    background-image: url(assets/icon_temperature.svg);
+    background-image: url(assets/icon_temperature.webp);
 }
 
 .event__icon_temp2 {
-    background-image: url(assets/icon_temperature_2.svg);
+    background-image: url(assets/icon_temperature_2.webp);
 }
 
 .event__icon_light {
-    background-image: url(assets/icon_sun.svg);
+    background-image: url(assets/icon_sun.webp);
 }
 
 .event__icon_light2 {
-    background-image: url(assets/icon_sun_2.svg);
+    background-image: url(assets/icon_sun_2.webp);
 }
 
 .event__icon_schedule {
-    background-image: url(assets/icon_scheduled.svg);
+    background-image: url(assets/icon_scheduled.webp);
 }
 
 .event__title {
