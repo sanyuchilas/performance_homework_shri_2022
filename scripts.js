@@ -5,7 +5,7 @@
         });
     }
 
-    function makeTabs(node) {
+    async function makeTabs(node) {
         let selected = node.querySelector('.section__tab_active').dataset.id;
         const tabs = node.querySelectorAll('.section__tab');
         const list = Array.from(tabs).map(node => node.dataset.id);
@@ -79,7 +79,7 @@
         });
     }
 
-    function makeMenu(node) {
+    async function makeMenu(node) {
         let expanded = false;
         const links = document.querySelector('.header__links');
 
@@ -92,8 +92,8 @@
         });
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
+    (async function() {
         Array.from(document.querySelectorAll('.main__devices')).forEach(makeTabs);
         Array.from(document.querySelectorAll('.header__menu')).forEach(makeMenu);
-    });
+    })();
 })();
